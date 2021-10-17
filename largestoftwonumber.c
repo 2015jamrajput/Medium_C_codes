@@ -2,16 +2,16 @@
 int main(int argc, char const *argv[])
 {
     int a, b;
-    printf("enter the num.whom u want to compare");
+    printf("enter the numbers that you want ");
     scanf("%d %d", &a,&b);
     if(a>b)
     {
-        printf("%d is larger then %d", a,b);
+        printf("%d \n is larger then \n %d", a,b);
     }
     else
     {
-        printf("%d is larger then %d", b,a);
+        printf("%d \n is larger then \n %d", b,a);
     }
-    return 0;
+    return -1;
 }
     
