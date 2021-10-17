@@ -1,21 +1,11 @@
 #include <stdio.h>
-int main(int argc, char const *argv[])
+int main(void)
 {
-    float a, b, c;
+    float a, b, c,max;
     printf("enter any 3 numbers\n");
     scanf("%f %f %f", &a, &b, &c);
-    if (a > b && a > c)
-    {
-        printf("%0.2f is largest", a);
-    }
-    else if (b > a && b > c)
-    {
-        printf("%0.2f is largest", b);
-    }
-    else
-    {
-        printf("%0.2f is largest", c);
-    }
-
+    max=(a>=b)?a:b;
+    max=(max>=c)?max:c;
+    printf("%0.2f is largest", max);
     return 0;
 }
