@@ -52,16 +52,17 @@ printf("%d\n", sum);*/
 //sum of the numbers occuring in the multiplication table of 8
 /*int i=0, sum=0;
 for(i=0; i<=10; i++){
-    8*i;
+    8*i
     sum= sum + 8*i;}
     printf("%d\n", sum); */
     // factorial of a number
-    int i=1, factorial=1, n;
-    scanf("%d", &n);                                            
-    for(i=1; i<=n; i++){
-    factorial=factorial*i;
-    }
-    printf("%d", factorial);
+    int a,b;
+    printf("Enter two numbers :");
+    scanf("%d",a);
+    scanf("%d",b);
+    
+    
+    printf("%d", a+b);
 
     return 0;
 
